@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    max-width: 550px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: auto;
+    margin-top: 5%;
+    
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 2px solid slateblue;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 470px;
+    overflow-y: auto;
+  }
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8px;
+    background: #e0e0e0;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tarefa-name {
+    flex-grow: 1;
+  }
+  
+  .tarefa-status {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-left: 5px;
+  }
+  
+  .header {
+    background-color: slateblue;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  #tarefaForm{
+    display: flex;
+    justify-content: space-between;
+  }
+  input {
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+   padding: 10px;
+   background-color:  rgb(51, 41, 121);
+   color: white;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(74, 45, 177);
+  }
